@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e554088-293d-40d0-a52a-0d90d44d2e01" name="Default" comment="" />
+    <ignored path="ventas_txd.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - ventas@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - venta_txd@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - venta_txd@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ingreso" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ventas_txd" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tienda_x_tienda.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienda_x_tienda.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="197" column="47" selection-start-line="197" selection-start-column="47" selection-end-line="197" selection-end-column="47" />
+              <folding>
+                <marker date="1480338003243" expanded="true" signature="925:960" placeholder="select fecha... actualizado" />
+                <marker date="1480338003243" expanded="true" signature="2330:2346" placeholder="..." />
+                <marker date="1480338003243" expanded="true" signature="5414:5469" placeholder="select depto... depto" />
+                <marker date="1480338003243" expanded="true" signature="6169:6224" placeholder="select depto... depto" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paneles.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/paneles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.13448276">
+              <caret line="350" column="64" selection-start-line="350" selection-start-column="64" selection-end-line="350" selection-end-column="64" />
+              <folding>
+                <marker date="1480604895940" expanded="true" signature="120:189" placeholder="select max(h... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="352:496" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="554:723" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="1442:1578" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="1639:1803" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="2450:2546" placeholder="select tiend... tiendas" />
+                <marker date="1480604895940" expanded="true" signature="4853:4893" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="4939:4979" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="5033:5073" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="5129:5169" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="5213:5253" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="5303:5343" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="5395:5435" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="8598:8611" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="8937:8953" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="9394:9407" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="9755:9771" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="10337:10370" placeholder="select disti... tiendas" />
+                <marker date="1480604895940" expanded="true" signature="12341:12354" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="12404:12426" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="12882:12898" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="14666:14685" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="14751:14770" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="14903:14922" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15067:15086" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15114:15130" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15237:15256" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15392:15411" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15547:15566" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="15877:15946" placeholder="select max(h... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="16109:16303" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="16355:16573" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="17023:17221" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="17273:17495" placeholder="select sum(t... ingreso" />
+                <marker date="1480604895940" expanded="true" signature="17946:18044" placeholder="select depto... depto" />
+                <marker date="1480604895940" expanded="true" signature="20027:20067" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20123:20163" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20217:20257" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20313:20353" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20397:20437" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20487:20527" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="20579:20619" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="22302:22315" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="22627:22643" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="24729:24742" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="24772:24794" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="25250:25266" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27034:27053" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27119:27138" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27271:27290" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27435:27454" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27482:27498" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27605:27624" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27760:27779" placeholder="..." />
+                <marker date="1480604895940" expanded="true" signature="27915:27934" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prueba.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+              <folding>
+                <marker date="1479821233963" expanded="true" signature="298:337" placeholder="delete from " />
+                <marker date="1479821233963" expanded="true" signature="304:337" placeholder="select max(h... ingreso" />
+                <marker date="1479821233963" expanded="true" signature="390:416" placeholder="select tiend... tiendas" />
+                <marker date="1479821233963" expanded="true" signature="752:1993" placeholder="select SVVSF... " />
+                <marker date="1479821233963" expanded="true" signature="2615:2667" placeholder="select nomde... depto" />
+                <marker date="1479821233963" expanded="true" signature="2858:2909" placeholder="select nomti... tiendas" />
+                <marker date="1479821233963" expanded="true" signature="3102:4055" placeholder="insert into ingreso... " />
+                <marker date="1479821233963" expanded="true" signature="4270:4293" placeholder="delete from " />
+                <marker date="1479821233963" expanded="true" signature="4317:4362" placeholder="insert into actualizado... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1479915657867" expanded="true" signature="103:132" placeholder="select nomti... tiendas" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fecha_es.php" />
+        <option value="$PROJECT_DIR$/ingresos.php" />
+        <option value="$PROJECT_DIR$/actualizar.php" />
+        <option value="$PROJECT_DIR$/prueba.php" />
+        <option value="$PROJECT_DIR$/comparar.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/txd.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/tienda_x_tienda.js" />
+        <option value="$PROJECT_DIR$/ingDiaAnt.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/paneles.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ventas_txd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ventas_txd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ventas_txd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e554088-293d-40d0-a52a-0d90d44d2e01" name="Default" comment="" />
+      <created>1478541188524</created>
+      <option name="number" value="Default" />
+      <updated>1478541188524</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19581544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1479915657867" expanded="true" signature="103:132" placeholder="select nomti... tiendas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actualizar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingDiaAnt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="50" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="211" column="263" selection-start-line="211" selection-start-column="263" selection-end-line="211" selection-end-column="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actualizar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="18" selection-start-line="129" selection-start-column="12" selection-end-line="141" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="164" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="147" selection-start-line="12" selection-start-column="147" selection-end-line="12" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingDiaAnt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="647" column="54" selection-start-line="647" selection-start-column="54" selection-end-line="647" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="136" selection-start-line="29" selection-start-column="136" selection-end-line="29" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="136" selection-start-line="29" selection-start-column="136" selection-end-line="29" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fecha_es.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fecha_es.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41034484">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9565bd71-6b0e-422c-b517-3e68afde6435/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d18d2d96-2e45-495a-98d0-09cba400c7ce/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actualizar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64827585">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3912543">
+          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07825086">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="4" selection-end-line="307" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.76923">
+          <caret line="131" column="139" selection-start-line="131" selection-start-column="139" selection-end-line="131" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fechas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41034484">
+          <caret line="21" column="47" selection-start-line="2" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1479915657867" expanded="true" signature="103:132" placeholder="select nomti... tiendas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <marker date="1479821233963" expanded="true" signature="298:337" placeholder="delete from " />
+            <marker date="1479821233963" expanded="true" signature="304:337" placeholder="select max(h... ingreso" />
+            <marker date="1479821233963" expanded="true" signature="390:416" placeholder="select tiend... tiendas" />
+            <marker date="1479821233963" expanded="true" signature="752:1993" placeholder="select SVVSF... " />
+            <marker date="1479821233963" expanded="true" signature="2615:2667" placeholder="select nomde... depto" />
+            <marker date="1479821233963" expanded="true" signature="2858:2909" placeholder="select nomti... tiendas" />
+            <marker date="1479821233963" expanded="true" signature="3102:4055" placeholder="insert into ingreso... " />
+            <marker date="1479821233963" expanded="true" signature="4270:4293" placeholder="delete from " />
+            <marker date="1479821233963" expanded="true" signature="4317:4362" placeholder="insert into actualizado... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingDiaAnt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21494253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienda_x_tienda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="197" column="47" selection-start-line="197" selection-start-column="47" selection-end-line="197" selection-end-column="47" />
+          <folding>
+            <marker date="1480338003243" expanded="true" signature="925:960" placeholder="select fecha... actualizado" />
+            <marker date="1480338003243" expanded="true" signature="2330:2346" placeholder="..." />
+            <marker date="1480338003243" expanded="true" signature="5414:5469" placeholder="select depto... depto" />
+            <marker date="1480338003243" expanded="true" signature="6169:6224" placeholder="select depto... depto" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paneles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13448276">
+          <caret line="350" column="64" selection-start-line="350" selection-start-column="64" selection-end-line="350" selection-end-column="64" />
+          <folding>
+            <marker date="1480604895940" expanded="true" signature="120:189" placeholder="select max(h... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="352:496" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="554:723" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="1442:1578" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="1639:1803" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="2450:2546" placeholder="select tiend... tiendas" />
+            <marker date="1480604895940" expanded="true" signature="4853:4893" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="4939:4979" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="5033:5073" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="5129:5169" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="5213:5253" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="5303:5343" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="5395:5435" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="8598:8611" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="8937:8953" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="9394:9407" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="9755:9771" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="10337:10370" placeholder="select disti... tiendas" />
+            <marker date="1480604895940" expanded="true" signature="12341:12354" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="12404:12426" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="12882:12898" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="14666:14685" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="14751:14770" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="14903:14922" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15067:15086" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15114:15130" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15237:15256" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15392:15411" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15547:15566" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="15877:15946" placeholder="select max(h... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="16109:16303" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="16355:16573" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="17023:17221" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="17273:17495" placeholder="select sum(t... ingreso" />
+            <marker date="1480604895940" expanded="true" signature="17946:18044" placeholder="select depto... depto" />
+            <marker date="1480604895940" expanded="true" signature="20027:20067" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20123:20163" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20217:20257" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20313:20353" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20397:20437" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20487:20527" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="20579:20619" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="22302:22315" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="22627:22643" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="24729:24742" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="24772:24794" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="25250:25266" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27034:27053" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27119:27138" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27271:27290" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27435:27454" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27482:27498" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27605:27624" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27760:27779" placeholder="..." />
+            <marker date="1480604895940" expanded="true" signature="27915:27934" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
