@@ -6,6 +6,10 @@ function todas($fecha, $fechaAnt, $ventas, $departamento)
 
     $hora = date("Hi");
 
+    $hora_ini = date("H") . "00";
+
+    $hora_fin = date("H", strtotime("{$hora_ini} +1 hour")) . "00";
+
     $query = "select act from marca";
 
     $res = $ventas->query($query);
@@ -17,6 +21,14 @@ function todas($fecha, $fechaAnt, $ventas, $departamento)
             $tabla = 'ingreso';
         else
             $tabla = 'ingresos';
+    }
+
+    $query = "select max(hortrantsl) as hortrantsl from $tabla where hortrantsl BETWEEN $hora_ini and $hora_fin and fectrantsl = $fecha";
+
+    $res = $ventas->query($query);
+
+    while($row = mysqli_fetch_assoc($res)){
+        $hora = $row['hortrantsl'];
     }
 
     $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, nomtienda, zona, tienda from ingreso where fectrantsl = $fecha"; //Mostrará información de otros días
@@ -397,7 +409,7 @@ function todas($fecha, $fechaAnt, $ventas, $departamento)
                 if($rpast < 0)
                     $label = "label label-danger";
 
-                echo "<tr><td class='$clase' style='display: table-cell'>$tienda2</td>";
+                echo "<tr><td class='$clase' style='display: table-cell'><h5>$tienda2</h5></td>";
                 echo "<td class='$clase' style='display: table-cell'><h5 class='text-center'>" . number_format($total_act, 0, ',', '.') . "</h5></td>";
                 echo "<td class='$clase' style='display: table-cell'><h5 class='text-center'>" . number_format($total_ant, 0, ',', '.') . "</h5></td>";
                 echo "<td class='text-center $clase' style='display: table-cell'><h5 class='$label' style='font-size: 12px;'>" . number_format($rpast, 1, ',', '.') . " %</h5></td>";
@@ -418,6 +430,10 @@ function txd($tienda, $fecha, $fechaAnt, $ventas){
 
     $hora = date("Hi");
 
+    $hora_ini = date("H") . "00";
+
+    $hora_fin = date("H", strtotime("{$hora_ini} +1 hour")) . "00";
+
     $query = "select act from marca";
 
     $res = $ventas->query($query);
@@ -429,6 +445,14 @@ function txd($tienda, $fecha, $fechaAnt, $ventas){
             $tabla = 'ingreso';
         else
             $tabla = 'ingresos';
+    }
+
+    $query = "select max(hortrantsl) as hortrantsl from $tabla where hortrantsl BETWEEN $hora_ini and $hora_fin and fectrantsl = $fecha";
+
+    $res = $ventas->query($query);
+
+    while($row = mysqli_fetch_assoc($res)){
+        $hora = $row['hortrantsl'];
     }
 
     $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, division, dep from ingreso where fectrantsl = $fecha and nomtienda = '$tienda' and dep >= 600 group by dep";
