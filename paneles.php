@@ -4,20 +4,25 @@ function todas($fecha, $fechaAnt, $ventas, $departamento)
 {
     ini_set("max_execution_time", 0);
 
-    $query = "select max(hortrantsl) as hortrantsl from ingreso where fectrantsl = $fecha";
+    $hora = date("Hi");
+
+    $query = "select act from marca";
 
     $res = $ventas->query($query);
 
-    $hora = 0;
+    $tabla = "";
 
     while($row = mysqli_fetch_assoc($res)){
-        $hora = $row['hortrantsl'];
+        if($row['act'] == 0)
+            $tabla = 'ingreso';
+        else
+            $tabla = 'ingresos';
     }
 
-    $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, nomtienda, zona, tienda from ingreso where fectrantsl = $fecha";
+    $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, nomtienda, zona, tienda from ingreso where fectrantsl = $fecha"; //Mostrará información de otros días
 
     if(date("Ymd") == $fecha)
-        $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, nomtienda, zona, tienda from ingreso where fectrantsl = $fecha and hortrantsl <= $hora";
+        $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, nomtienda, zona, tienda from $tabla where fectrantsl = $fecha and hortrantsl <= $hora"; //Si se selecciona día actual
 
     if($departamento != "todos")
         $query = $query . " and dep = $departamento";
@@ -411,20 +416,25 @@ function txd($tienda, $fecha, $fechaAnt, $ventas){
 
     ini_set("max_execution_time", 0);
 
-    $query = "select max(hortrantsl) as hortrantsl from ingreso where fectrantsl = $fecha";
+    $hora = date("Hi");
+
+    $query = "select act from marca";
 
     $res = $ventas->query($query);
 
-    $hora = 0;
+    $tabla = "";
 
     while($row = mysqli_fetch_assoc($res)){
-        $hora = $row['hortrantsl'];
+        if($row['act'] == 0)
+            $tabla = 'ingreso';
+        else
+            $tabla = 'ingresos';
     }
 
     $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, division, dep from ingreso where fectrantsl = $fecha and nomtienda = '$tienda' and dep >= 600 group by dep";
 
     if(date("Ymd") == $fecha)
-        $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, division, dep from ingreso where fectrantsl = $fecha and hortrantsl <= $hora and dep >= 600 and nomtienda = '$tienda' group by dep";
+        $query = "select sum(totarttsl - descuento)/1.19 as ingresoneto, sum(venta_costo) as venta_costo, division, dep from $tabla where fectrantsl = $fecha and hortrantsl <= $hora and dep >= 600 and nomtienda = '$tienda' group by dep";
 
     $tienda_act = array();
     $ingreso_neto_act = array();

@@ -1,4 +1,5 @@
 <?php
+
 ini_set("max_execution_time", 0);
 
 date_default_timezone_set("America/Santiago");
@@ -10,6 +11,12 @@ $ventas = new mysqli('localhost', 'root', '', 'ventas');
 $venta_txd = new mysqli('localhost', 'root', '', 'venta_txd');
 
 $dia = date("Ymd");
+
+$venta_txd->query("create table ingresos select * from ingreso where fectrantsl = $dia");
+
+$venta_txd->query("alter table ingresos engine = myisam");
+
+$venta_txd->query("update marca set act = 1 where act = 0");
 
 $query = "delete from ingreso where fectrantsl = $dia";
 
@@ -133,3 +140,7 @@ $hora = date("Hi");
 $venta_txd->query("delete from actualizado");
 
 $venta_txd->query("insert into actualizado values($fecha, $hora)");
+
+$venta_txd->query("drop table ingresos");
+
+$venta_txd->query("update marca set act = 0 where act = 1");
